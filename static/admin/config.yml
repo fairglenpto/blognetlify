@@ -13,5 +13,5 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: date, label: Created, widget: date }
-      - { name: body, label: Post, widget: markdown }
-      - { name: image, label: Image, widget: image }
+      - { name: body, label: Post, widget: markdown, required: false }
+      - { name: image, label: Image, widget: image, required: false }
