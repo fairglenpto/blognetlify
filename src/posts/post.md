@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the new blog"
+title: "Welcome to the new Fairglen blog"
 date: "2018-03-15"
 ---
 
