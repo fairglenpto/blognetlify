@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: fairglenpto/blognetlify
 
 media_folder: static/assets
 
