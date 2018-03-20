@@ -16,7 +16,8 @@ const HeaderWrapper = styled.div`
   )};
   h1 {
     img {
-      height: 80px;
+      height: 10vw;
+      max-height: 80px;
     }
   }
 `;
