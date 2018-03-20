@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "fairglen-blog",
+  "description": "Fairglen PTO",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Shea Nelson <fairglenpto@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.223",
     "gatsby-image": "^1.0.42",
