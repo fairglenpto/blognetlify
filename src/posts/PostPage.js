@@ -5,7 +5,7 @@ export default class PostPage extends Component {
         const { data } = this.props;
         if (!data) return null;
         return (
-            <div>
+            <article>
                 <span>{data.markdownRemark.frontmatter.date}</span>  
                 <h1>{data.markdownRemark.frontmatter.title}</h1>  
                 <div 
@@ -13,7 +13,7 @@ export default class PostPage extends Component {
                         __html: data.markdownRemark.html
                     }} 
                 />
-            </div>
+            </article>
         )
     }
 }

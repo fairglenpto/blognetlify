@@ -11,13 +11,14 @@ const HeaderWrapper = styled.div`
   margin-bottom: 1.45rem;
   overflow: hidden;
   position: relative;
+  border-bottom: 3px solid #354198;
   height: ${({ isHome }) => (
-    isHome ? "50vh" : "20vh"
+    isHome ? "45vh" : "20vh"
   )};
   h1 {
     img {
       height: 10vw;
-      max-height: 80px;
+      max-height: 70px;
     }
   }
 `;
@@ -58,21 +59,23 @@ export default class Header extends Component {
       if(this.props.location.pathname === '/') {
           this.wrapper.animate([
             { height: "20vh" },
-            { height: "50vh" }
+            { height: "45vh" }
           ], {
-            duration: 100,
+            duration: 200,
             fill: "forwards", 
-            easing: "cubic-bezier(0.86, 0, 0.07, 1)",
+            // easing: "cubic-bezier(0.86, 0, 0.07, 1)",
+            transitionTimingFunction: "ease-out",
             iterations: 1
           })
       } else {
         this.wrapper.animate([
-          { height: "50vh" },
+          { height: "45vh" },
           { height: "20vh" }
         ], {
-          duration: 100,
+          duration: 200,
           fill: "forwards", 
-          easing: "cubic-bezier(0.86, 0, 0.07, 1)",
+          // easing: "cubic-bezier(0.86, 0, 0.17, 1)",
+          transitionTimingFunction: "ease-out",
           iterations: 1
         });
       }   
@@ -115,7 +118,7 @@ export default class Header extends Component {
           top: 0,
           width: '100%',
           height: '100%',
-          opacity: 0.4
+          opacity: 0.5
         }}
         sizes={data.background.sizes} />
     </HeaderWrapper>

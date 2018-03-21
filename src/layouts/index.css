@@ -5,6 +5,24 @@ html {
 }
 body {
   margin: 0;
+  background: url(../images/fgBackground5.png);
+  background: #fff;
+  background-size: cover;
+}
+article {
+  background: rgba(255, 255, 255, .95);
+  padding: 1.0875rem 1.45rem;
+  border-radius: 3px;
+  margin-bottom: .75rem;
+  -webkit-box-shadow: 0 10px 6px -6px #000;
+  -moz-box-shadow: 0 10px 6px -6px #000;
+  box-shadow: 0 10px 6px -6px #000;
+}
+article:hover {
+  background: #ffffff;
+}
+article>h3>a { 
+  color: #354198;
 }
 article,
 aside,
@@ -243,11 +261,11 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -260,11 +278,11 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;

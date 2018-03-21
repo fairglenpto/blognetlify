@@ -10,8 +10,8 @@ const TemplateWrapper = ({ children, data, location }) => (
     <Helmet
       title="Fairglen PTO"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Fairglen Elementary PTO, Cocoa Fl' },
+        { name: 'keywords', content: 'school, pto, cocoa, florida, fl, fairglen, elementary, parent, teacher, education' },
       ]}
     />
     <Header data={data} location={location} />
@@ -19,8 +19,13 @@ const TemplateWrapper = ({ children, data, location }) => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
+        width: '95vw',
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0
+        paddingTop: '1rem',
+        background: 'rgba(53, 65, 152, .6)',                
+        borderRadius: '3px',
+        boxShadow: '0 1px 15px 1px #000',
+        marginBottom: '20px'
       }}
     >
       {children()}
